@@ -2,13 +2,20 @@
 
 **TextUtils** is a powerful React-based text utility web application that provides a variety of features to manipulate and analyze text efficiently.
 
-![TextUtils Screenshot](./SS1.png) ![TextUtils Screenshot](./SS3.jpg)
-![TextUtils Screenshot](./SS2.png) ![TextUtils Screenshot](./SS4.jpg)
+<br>
 
+### 📸 Screenshots
 ---
+<div align="center">
+  <img src="./SS1.png" alt="Screenshot 1" width="220" style="margin: 10px;" />
+  <img src="./SS2.png" alt="Screenshot 3" width="220" style="margin: 10px;" />
+  <img src="./SS3.jpg" alt="Screenshot 2" width="220" style="margin: 10px;" />
+  <img src="./SS4.jpg" alt="Screenshot 4" width="220" style="margin: 10px;" />
+</div>
+
+<br>
 
 ## ✨ Features
-
 - ✅ Convert text to **UPPERCASE** or **lowercase**
 - ✅ Convert text to **Sentence case**, **Capitalized Case**, **aLtErNaTiNg cAsE**, **iNVERSE cASE**
 - ✅ **Remove extra spaces** or **all spaces**
@@ -22,16 +29,15 @@
 - ✅ Dark/Light mode toggle
 - ✅ Copy and Clear functionality
 
----
+<br>
 
 ## 📦 Technologies Used
-
 - React.js
 - Bootstrap 5
 - HTML / CSS
 - JavaScript
 
----
+<br>
 
 ## 🚀 Getting Started
 
@@ -56,7 +62,7 @@ npm start
 
 Your app will run at `http://localhost:3000`
 
----
+<br>
 
 ## 🔗 Deployment on GitHub Pages
 
@@ -84,7 +90,7 @@ npm install gh-pages --save-dev
 npm run deploy
 ```
 
----
+<br>
 
 ## 📂 Folder Structure
 
@@ -107,18 +113,18 @@ TextUtils/
 └── package.json
 ```
 
----
+<br>
 
 ## 📄 License
 
 This project is licensed under the **MIT License** – feel free to use and modify!
 
----
+<br>
 
 ## 🧑‍🎓 Author
 
 Made with ❤️ by [Shivam S. Ramoliya](https://github.com/Shivam-Ramoliya)
 
----
+<br>
 
 > _TextUtils: Simplify and Supercharge Your Text Editing!_
