@@ -2,8 +2,8 @@
 
 **TextUtils** is a powerful React-based text utility web application that provides a variety of features to manipulate and analyze text efficiently.
 
-![TextUtils Screenshot](./SS1.png)
-![TextUtils Screenshot](./SS2.png)
+![TextUtils Screenshot](./SS1.png) ![TextUtils Screenshot](./SS3.png)
+![TextUtils Screenshot](./SS2.png) ![TextUtils Screenshot](./SS4.png)
 
 ---
 
