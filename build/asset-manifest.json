@@ -1,7 +1,11 @@
 {
   "files": {
     "main.css": "/TextUtils-main/static/css/main.86209c51.css",
+<<<<<<< Updated upstream
     "main.js": "/TextUtils-main/static/js/main.511ae013.js",
+=======
+    "main.js": "/TextUtils-main/static/js/main.0a11d3fb.js",
+>>>>>>> Stashed changes
     "static/js/453.96453769.chunk.js": "/TextUtils-main/static/js/453.96453769.chunk.js",
     "static/media/fa-solid-900.ttf": "/TextUtils-main/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/fa-brands-400.ttf": "/TextUtils-main/static/media/fa-brands-400.1815e00441357e01619e.ttf",
@@ -13,11 +17,19 @@
     "static/media/fa-v4compatibility.woff2": "/TextUtils-main/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/TextUtils-main/index.html",
     "main.86209c51.css.map": "/TextUtils-main/static/css/main.86209c51.css.map",
+<<<<<<< Updated upstream
     "main.511ae013.js.map": "/TextUtils-main/static/js/main.511ae013.js.map",
+=======
+    "main.0a11d3fb.js.map": "/TextUtils-main/static/js/main.0a11d3fb.js.map",
+>>>>>>> Stashed changes
     "453.96453769.chunk.js.map": "/TextUtils-main/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86209c51.css",
+<<<<<<< Updated upstream
     "static/js/main.511ae013.js"
+=======
+    "static/js/main.0a11d3fb.js"
+>>>>>>> Stashed changes
   ]
 }
