@@ -1,14 +1,13 @@
 import './App.css';
 import Navbar from './Components/Navbar';
 import TextArea from './Components/TextArea';
-import { useState, useEffect } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import Alert from './Components/Alert';
 import About from './Components/About';
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   const [mode, setMode] = useState('dark');
-  const [alert, setAlert] = useState(null);
 
   useEffect(() => {
     document.body.style.backgroundColor = '#0f172a';
@@ -30,16 +29,34 @@ function App() {
     }
   };
 
-  const showAlert = (message, type) => {
-    setAlert({
-      msg: message,
-      type: type
-    });
 
-    setTimeout(() => {
+  const [alert, setAlert] = useState(null);
+  const alertTimeoutRef = useRef(null);
+
+  const showAlert = (message, type) => {
+    setAlert({ msg: message, type: type });
+
+    // Clear any existing timeout
+    if (alertTimeoutRef.current) {
+      clearTimeout(alertTimeoutRef.current);
+    }
+
+    // Set timeout to dismiss alert
+    alertTimeoutRef.current = setTimeout(() => {
       setAlert(null);
-    }, 2000);
-  }
+      alertTimeoutRef.current = null;
+    }, 3000);
+  };
+
+  // Cleanup timeout on component unmount
+  useEffect(() => {
+    return () => {
+      if (alertTimeoutRef.current) {
+        clearTimeout(alertTimeoutRef.current);
+      }
+    };
+  }, []);
+
 
   return (
     <Router>
